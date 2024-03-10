@@ -1,0 +1,19 @@
+[Git Bash]
+git config --global user.name "your_name"
+git config --global user.email "your_email"
+              git config --list /*입력상태 확인*/
+
+[Terminal]
+git init
+git add .     git status /*add 파일 확인*/
+git commit -m "first commit"
+git remote add origin git@github.com:go7394/WebMaster.git
+              git remote -v /*연결고리 확인*/
+git push origin master
+
+[branch Terminal]
+git clone git@github.com:go7394/WebMaster.git ProjectFolderName
+git add .
+git commit -m "freshman first commit"
+git checkout -b PleaseCheck
+git push origin PleaseCheck
