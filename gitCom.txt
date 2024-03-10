@@ -9,6 +9,7 @@ git add .     git status /*add 파일 확인*/
 git commit -m "first commit"
 git remote add origin git@github.com:go7394/WebMaster.git
               git remote -v /*연결고리 확인*/
+              git remote remove origin /*제거*/
 git push origin master
 
 [branch Terminal]
